@@ -18,7 +18,7 @@ print("game won in last 10 :",stat.last_ten_games_win)
 print("winrate the 10 last game :", stat.last_ten_games_win_rate)
 
 #get the stat of the last game
-last_game=stat.last_ten_games[1]
+last_game=stat.last_ten_games[0]
 
 #get the result of the last game
 print("result of last game :", last_game.result)
