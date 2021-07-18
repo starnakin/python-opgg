@@ -1,8 +1,3 @@
-# python-opgg
-The Riot API doesn't want me, I don't need it. This is a web scraper to get League of Legends stats.
-
-# usage examples:
-```Python
 import python_opgg
 
 stat = python_opgg.get_stat("yanis360", region="euw")
@@ -57,5 +52,3 @@ print("game length :", last_game.game_length)
 
 #get the game kill participation of the last game
 print("game kill participation :", last_game.kill_participation)
-```
-##### made on code-server
